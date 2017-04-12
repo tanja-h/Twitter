@@ -10,23 +10,18 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author Tanja
+ * @author tanja-h
  *
  */
 public class TwitterPorukaTest {
 
 	private TwitterPoruka t;
 	
-	/**
-	 * @throws java.lang.Exception
-	 */
 	@Before
 	public void setUp() throws Exception {
 		t = new TwitterPoruka();
 	}
-	/**
-	 * @throws java.lang.Exception
-	 */
+
 	@After
 	public void tearDown() throws Exception {
 		t = null;
@@ -47,13 +42,6 @@ public class TwitterPorukaTest {
 		t.setKorisnik(null);
 		
 	}
-	
-	/*
-	@Test (expected = java.lang.RuntimeException.class)
-	public void testSetKorisnikEmpty() {
-		t.setKorisnik();
-		
-	}*/
 
 	/**
 	 * Test method for {@link com.twitter.poruke.TwitterPoruka#setPoruka(java.lang.String)}.
