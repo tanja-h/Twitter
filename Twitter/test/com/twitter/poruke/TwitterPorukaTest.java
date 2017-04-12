@@ -13,16 +13,16 @@ import org.junit.Test;
  * @author Tanja
  *
  */
-public class TwitterPorukeTest {
+public class TwitterPorukaTest {
 
-	private TwitterPoruke t;
+	private TwitterPoruka t;
 	
 	/**
 	 * @throws java.lang.Exception
 	 */
 	@Before
 	public void setUp() throws Exception {
-		t = new TwitterPoruke();
+		t = new TwitterPoruka();
 	}
 	/**
 	 * @throws java.lang.Exception
@@ -34,7 +34,7 @@ public class TwitterPorukeTest {
 
 	
 	/**
-	 * Test method for {@link com.twitter.poruke.TwitterPoruke#setKorisnik(java.lang.String)}.
+	 * Test method for {@link com.twitter.poruke.TwitterPoruka#setKorisnik(java.lang.String)}.
 	 */
 	@Test
 	public void testSetKorisnik() {
@@ -56,7 +56,7 @@ public class TwitterPorukeTest {
 	}*/
 
 	/**
-	 * Test method for {@link com.twitter.poruke.TwitterPoruke#setPoruka(java.lang.String)}.
+	 * Test method for {@link com.twitter.poruke.TwitterPoruka#setPoruka(java.lang.String)}.
 	 */
 	@Test
 	public void testSetPoruka() {
@@ -84,7 +84,7 @@ public class TwitterPorukeTest {
 	}
 
 	/**
-	 * Test method for {@link com.twitter.poruke.TwitterPoruke#toString()}.
+	 * Test method for {@link com.twitter.poruke.TwitterPoruka#toString()}.
 	 */
 	@Test
 	public void testToString() {

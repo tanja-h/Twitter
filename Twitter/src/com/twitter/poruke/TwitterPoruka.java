@@ -3,9 +3,9 @@ package com.twitter.poruke;
 /**
  * @author tanja-h
  * @version V0.1
- * Klasa Twitter ima atribute korisnik i poruka.
+ * Klasa TwitterPoruka ima atribute korisnik i poruka.
  */
-public class TwitterPoruke {
+public class TwitterPoruka {
 	/**
 	 * Atribut korisnik oznacava naziv korisnika.
 	 */
