@@ -66,6 +66,7 @@ public class TwitterPoruka {
 	
 	/**
 	 * Metoda ispisuje podatke o korisniku i njegovoj poruci.
+	 * @return naziv korinika i njegovu poruku
 	 */
 	public String toString(){
 		return "KORISNIK:"+korisnik+" PORUKA:"+poruka;
